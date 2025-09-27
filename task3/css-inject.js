@@ -160,6 +160,25 @@
 		}
 	
 		
+		/* Height-responsive adjustments for shorter screens */
+		@media (max-height: 1000px) {
+			.lm-hero.lm-hero {
+				padding-bottom: 2rem;
+			}
+			
+			.lm-hero .lm-hero__image.lm-hero__image {
+				top: 100%;
+			}
+			
+			.lm-hero__left.lm-hero__left {
+				margin-bottom: 2rem;
+			}
+			
+			.lm-hero__buttons.lm-hero__buttons {
+				margin-bottom: 1rem;
+			}
+		}
+		
 		/* Responsive adjustments for very small phones */
 		@media (max-width: 375px) {
 			.value-proposition ul {

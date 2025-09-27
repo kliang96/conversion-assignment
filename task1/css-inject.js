@@ -224,12 +224,17 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-		}
+		}s
 
 		.step-icon {
 			font-size: 1.5rem;
 			margin-bottom: 0.5rem;
-			padding: 0.5rem;
+			/* Apply fixed dimensions to ensure perfect circles */
+			width: 3rem;
+			height: 3rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			border: 3px solid #808080;
 			border-radius: 50%;
 			z-index: 2;
